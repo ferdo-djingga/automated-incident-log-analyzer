@@ -6,7 +6,7 @@ A lightweight Python tool that parses **Apache**, **Nginx**, **Syslog**, and **J
 
 ---
 
-## ✨ Features
+## Features
 - **Multi-format** parsers (Apache / Nginx / Syslog / JSONL)
 - **Auto-detect** log type (scored heuristic; resilient to near-matches)
 - **Severity & category tagging** (ERROR / WARN / CRITICAL; e.g. `HTTP_5xx`, `TIMEOUT`, `NETWORK`, `AUTH`)
