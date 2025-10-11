@@ -1,0 +1,5 @@
+2025/06/01 12:00:01 [error] [client 192.168.1.10] File does not exist: /var/www/html/favicon.ico
+2025/06/01 12:00:05 [crit] [client 192.168.1.12] AH00128: File permissions deny server access: /var/www/html/secret.txt
+2025/06/01 12:00:08 [warn] [client 192.168.1.14] mod_fcgid: read data timeout in 45 seconds
+2025/06/01 12:00:12 [error] [client 192.168.1.15] script '/var/www/html/test.php' not found or unable to stat
+2025/06/01 12:00:16 [notice] caught SIGTERM, shutting down
