@@ -13,37 +13,6 @@ A lightweight Python tool that parses **Apache**, **Nginx**, **Syslog**, and **J
 - **Exports**: `report.csv` (structured rows) and `report.html` (clean summary)
 - **Zero external deps** (standard library only), quick to run anywhere
 
----
-## Project Structure
-Automated-Incident-Log-Analyzer-for-IT-Operations/
-  ├─ src/                        # main source code
-  │   ├─ main.py                 # CLI entry point (parse args, run analyzer)
-  │   ├─ report.py               # report generator (CSV + HTML)
-  │   └─ parsers/                # log parsers (modular)
-  │       ├─ apache.py           # Apache error log parser
-  │       ├─ nginx.py            # Nginx error log parser
-  │       ├─ syslog.py           # Syslog parser
-  │       └─ jsonapp.py          # JSON-based application log parser
-  │
-  ├─ data/                       # sample input logs
-  │   ├─ sample_apache_error.log
-  │   ├─ sample_nginx_error.log
-  │   ├─ sample_syslog.log
-  │   └─ sample_app.jsonl
-  │
-  ├─ output/                     # generated outputs (example runs)
-  │   ├─ report.csv
-  │   ├─ report.html
-  │   └─ demo_console.txt        # example console run output
-  │
-  ├─ tests/                      # light validation tests
-  │   └─ test_parsers.py
-  │
-  ├─ demo.sh
-  ├─ largelog.sh
-  ├─ README.md                   # overview + instructions
-  ├─ benchmark.md                # guide for measuring time saved / accuracy
-
 ___
 
 ## Project Instructions (How to Run)
